@@ -9,12 +9,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/dice"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/common/task"
-	"github.com/xtls/xray-core/proxy/vmess/aead"
+	"github.com/eagleql/xray-core/common"
+	"github.com/eagleql/xray-core/common/dice"
+	"github.com/eagleql/xray-core/common/protocol"
+	"github.com/eagleql/xray-core/common/serial"
+	"github.com/eagleql/xray-core/common/task"
+	"github.com/eagleql/xray-core/proxy/vmess/aead"
 )
 
 const (

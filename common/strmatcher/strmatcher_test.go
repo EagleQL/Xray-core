@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/xtls/xray-core/common"
-	. "github.com/xtls/xray-core/common/strmatcher"
+	"github.com/eagleql/xray-core/common"
+	. "github.com/eagleql/xray-core/common/strmatcher"
 )
 
 func TestMatcherGroup(t *testing.T) {

@@ -3,8 +3,8 @@ package dns
 import (
 	gonet "net"
 
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/features"
+	"github.com/eagleql/xray-core/common/net"
+	"github.com/eagleql/xray-core/features"
 )
 
 type FakeDNSEngine interface {

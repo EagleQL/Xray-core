@@ -1,6 +1,6 @@
 package dispatcher
 
-//go:generate go run github.com/xtls/xray-core/common/errors/errorgen
+//go:generate go run github.com/eagleql/xray-core/common/errors/errorgen
 
 import (
 	"context"
@@ -8,21 +8,21 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/log"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/dns"
-	"github.com/xtls/xray-core/features/outbound"
-	"github.com/xtls/xray-core/features/policy"
-	"github.com/xtls/xray-core/features/routing"
-	routing_session "github.com/xtls/xray-core/features/routing/session"
-	"github.com/xtls/xray-core/features/stats"
-	"github.com/xtls/xray-core/transport"
-	"github.com/xtls/xray-core/transport/pipe"
+	"github.com/eagleql/xray-core/common"
+	"github.com/eagleql/xray-core/common/buf"
+	"github.com/eagleql/xray-core/common/log"
+	"github.com/eagleql/xray-core/common/net"
+	"github.com/eagleql/xray-core/common/protocol"
+	"github.com/eagleql/xray-core/common/session"
+	"github.com/eagleql/xray-core/core"
+	"github.com/eagleql/xray-core/features/dns"
+	"github.com/eagleql/xray-core/features/outbound"
+	"github.com/eagleql/xray-core/features/policy"
+	"github.com/eagleql/xray-core/features/routing"
+	routing_session "github.com/eagleql/xray-core/features/routing/session"
+	"github.com/eagleql/xray-core/features/stats"
+	"github.com/eagleql/xray-core/transport"
+	"github.com/eagleql/xray-core/transport/pipe"
 )
 
 var (

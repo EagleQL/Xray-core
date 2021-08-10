@@ -4,8 +4,8 @@ import (
 	"context"
 	"encoding/binary"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/dice"
+	"github.com/eagleql/xray-core/common"
+	"github.com/eagleql/xray-core/common/dice"
 )
 
 type VideoChat struct {

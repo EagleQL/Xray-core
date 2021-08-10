@@ -7,10 +7,10 @@
 package proxyman
 
 import (
+	net "github.com/eagleql/xray-core/common/net"
+	serial "github.com/eagleql/xray-core/common/serial"
+	internet "github.com/eagleql/xray-core/transport/internet"
 	proto "github.com/golang/protobuf/proto"
-	net "github.com/xtls/xray-core/common/net"
-	serial "github.com/xtls/xray-core/common/serial"
-	internet "github.com/xtls/xray-core/transport/internet"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

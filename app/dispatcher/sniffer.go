@@ -3,10 +3,10 @@ package dispatcher
 import (
 	"context"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/protocol/bittorrent"
-	"github.com/xtls/xray-core/common/protocol/http"
-	"github.com/xtls/xray-core/common/protocol/tls"
+	"github.com/eagleql/xray-core/common"
+	"github.com/eagleql/xray-core/common/protocol/bittorrent"
+	"github.com/eagleql/xray-core/common/protocol/http"
+	"github.com/eagleql/xray-core/common/protocol/tls"
 )
 
 type SniffResult interface {

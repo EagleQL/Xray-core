@@ -7,8 +7,8 @@
 package inbound
 
 import (
+	protocol "github.com/eagleql/xray-core/common/protocol"
 	proto "github.com/golang/protobuf/proto"
-	protocol "github.com/xtls/xray-core/common/protocol"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

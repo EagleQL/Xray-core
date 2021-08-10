@@ -1,8 +1,8 @@
 package log
 
 import (
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/log"
+	"github.com/eagleql/xray-core/common"
+	"github.com/eagleql/xray-core/common/log"
 )
 
 type HandlerCreatorOptions struct {

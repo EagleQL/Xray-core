@@ -9,12 +9,12 @@ import (
 	"io"
 	"io/ioutil"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/crypto"
-	"github.com/xtls/xray-core/common/dice"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
+	"github.com/eagleql/xray-core/common"
+	"github.com/eagleql/xray-core/common/buf"
+	"github.com/eagleql/xray-core/common/crypto"
+	"github.com/eagleql/xray-core/common/dice"
+	"github.com/eagleql/xray-core/common/net"
+	"github.com/eagleql/xray-core/common/protocol"
 )
 
 const (

@@ -3,7 +3,7 @@ package internet
 import (
 	"net"
 
-	"github.com/xtls/xray-core/features/stats"
+	"github.com/eagleql/xray-core/features/stats"
 )
 
 type Connection interface {

@@ -6,7 +6,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/xtls/xray-core/common"
+	"github.com/eagleql/xray-core/common"
 )
 
 func main() {

@@ -7,9 +7,9 @@
 package core
 
 import (
+	serial "github.com/eagleql/xray-core/common/serial"
+	global "github.com/eagleql/xray-core/transport/global"
 	proto "github.com/golang/protobuf/proto"
-	serial "github.com/xtls/xray-core/common/serial"
-	global "github.com/xtls/xray-core/transport/global"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

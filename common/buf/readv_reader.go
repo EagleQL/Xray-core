@@ -7,7 +7,7 @@ import (
 	"runtime"
 	"syscall"
 
-	"github.com/xtls/xray-core/common/platform"
+	"github.com/eagleql/xray-core/common/platform"
 )
 
 type allocStrategy struct {

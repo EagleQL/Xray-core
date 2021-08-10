@@ -1,9 +1,9 @@
 package serial
 
 import (
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/infra/conf"
-	"github.com/xtls/xray-core/main/confloader"
+	"github.com/eagleql/xray-core/core"
+	"github.com/eagleql/xray-core/infra/conf"
+	"github.com/eagleql/xray-core/main/confloader"
 	"io"
 )
 

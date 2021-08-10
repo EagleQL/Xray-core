@@ -2,7 +2,7 @@ package websocket
 
 import (
 	"context"
-	_ "embed"
+	//_ "embed"
 	"encoding/base64"
 	"fmt"
 	"io"
@@ -12,14 +12,14 @@ import (
 
 	"github.com/gorilla/websocket"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/transport/internet"
-	"github.com/xtls/xray-core/transport/internet/tls"
+	"github.com/eagleql/xray-core/common"
+	"github.com/eagleql/xray-core/common/net"
+	"github.com/eagleql/xray-core/common/session"
+	"github.com/eagleql/xray-core/transport/internet"
+	"github.com/eagleql/xray-core/transport/internet/tls"
 )
 
-//go:embed dialer.html
+//delete-this:go:embed dialer.html
 var webpage []byte
 var conns chan *websocket.Conn
 

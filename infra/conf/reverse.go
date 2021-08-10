@@ -1,8 +1,8 @@
 package conf
 
 import (
+	"github.com/eagleql/xray-core/app/reverse"
 	"github.com/golang/protobuf/proto"
-	"github.com/xtls/xray-core/app/reverse"
 )
 
 type BridgeConfig struct {

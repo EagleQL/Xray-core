@@ -7,9 +7,9 @@
 package dns
 
 import (
+	router "github.com/eagleql/xray-core/app/router"
+	net "github.com/eagleql/xray-core/common/net"
 	proto "github.com/golang/protobuf/proto"
-	router "github.com/xtls/xray-core/app/router"
-	net "github.com/xtls/xray-core/common/net"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

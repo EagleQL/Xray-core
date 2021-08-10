@@ -1,30 +1,30 @@
 package outbound
 
-//go:generate go run github.com/xtls/xray-core/common/errors/errorgen
+//go:generate go run github.com/eagleql/xray-core/common/errors/errorgen
 
 import (
 	"context"
 	"syscall"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/platform"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/retry"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/common/signal"
-	"github.com/xtls/xray-core/common/task"
-	"github.com/xtls/xray-core/common/xudp"
-	core "github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/policy"
-	"github.com/xtls/xray-core/features/stats"
-	"github.com/xtls/xray-core/proxy/vless"
-	"github.com/xtls/xray-core/proxy/vless/encoding"
-	"github.com/xtls/xray-core/transport"
-	"github.com/xtls/xray-core/transport/internet"
-	"github.com/xtls/xray-core/transport/internet/xtls"
+	"github.com/eagleql/xray-core/common"
+	"github.com/eagleql/xray-core/common/buf"
+	"github.com/eagleql/xray-core/common/net"
+	"github.com/eagleql/xray-core/common/platform"
+	"github.com/eagleql/xray-core/common/protocol"
+	"github.com/eagleql/xray-core/common/retry"
+	"github.com/eagleql/xray-core/common/session"
+	"github.com/eagleql/xray-core/common/signal"
+	"github.com/eagleql/xray-core/common/task"
+	"github.com/eagleql/xray-core/common/xudp"
+	core "github.com/eagleql/xray-core/core"
+	"github.com/eagleql/xray-core/features/policy"
+	"github.com/eagleql/xray-core/features/stats"
+	"github.com/eagleql/xray-core/proxy/vless"
+	"github.com/eagleql/xray-core/proxy/vless/encoding"
+	"github.com/eagleql/xray-core/transport"
+	"github.com/eagleql/xray-core/transport/internet"
+	"github.com/eagleql/xray-core/transport/internet/xtls"
 )
 
 var (

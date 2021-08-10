@@ -5,7 +5,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/xtls/xray-core/common/protocol"
+	"github.com/eagleql/xray-core/common/protocol"
 )
 
 // Validator stores valid Shadowsocks users.

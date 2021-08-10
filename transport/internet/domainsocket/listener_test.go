@@ -8,11 +8,11 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/transport/internet"
-	. "github.com/xtls/xray-core/transport/internet/domainsocket"
+	"github.com/eagleql/xray-core/common"
+	"github.com/eagleql/xray-core/common/buf"
+	"github.com/eagleql/xray-core/common/net"
+	"github.com/eagleql/xray-core/transport/internet"
+	. "github.com/eagleql/xray-core/transport/internet/domainsocket"
 )
 
 func TestListen(t *testing.T) {

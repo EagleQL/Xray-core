@@ -7,8 +7,8 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/xtls/xray-core/common"
-	. "github.com/xtls/xray-core/common/crypto"
+	"github.com/eagleql/xray-core/common"
+	. "github.com/eagleql/xray-core/common/crypto"
 )
 
 func mustDecodeHex(s string) []byte {

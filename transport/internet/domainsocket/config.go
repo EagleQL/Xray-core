@@ -1,9 +1,9 @@
 package domainsocket
 
 import (
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/transport/internet"
+	"github.com/eagleql/xray-core/common"
+	"github.com/eagleql/xray-core/common/net"
+	"github.com/eagleql/xray-core/transport/internet"
 )
 
 const protocolName = "domainsocket"

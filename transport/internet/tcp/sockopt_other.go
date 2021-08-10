@@ -3,8 +3,8 @@
 package tcp
 
 import (
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/transport/internet"
+	"github.com/eagleql/xray-core/common/net"
+	"github.com/eagleql/xray-core/transport/internet"
 )
 
 func GetOriginalDestination(conn internet.Connection) (net.Destination, error) {

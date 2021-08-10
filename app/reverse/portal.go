@@ -5,16 +5,16 @@ import (
 	"sync"
 	"time"
 
+	"github.com/eagleql/xray-core/common"
+	"github.com/eagleql/xray-core/common/buf"
+	"github.com/eagleql/xray-core/common/mux"
+	"github.com/eagleql/xray-core/common/net"
+	"github.com/eagleql/xray-core/common/session"
+	"github.com/eagleql/xray-core/common/task"
+	"github.com/eagleql/xray-core/features/outbound"
+	"github.com/eagleql/xray-core/transport"
+	"github.com/eagleql/xray-core/transport/pipe"
 	"github.com/golang/protobuf/proto"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/mux"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/common/task"
-	"github.com/xtls/xray-core/features/outbound"
-	"github.com/xtls/xray-core/transport"
-	"github.com/xtls/xray-core/transport/pipe"
 )
 
 type Portal struct {

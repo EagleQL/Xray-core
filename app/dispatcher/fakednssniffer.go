@@ -3,11 +3,11 @@ package dispatcher
 import (
 	"context"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/dns"
+	"github.com/eagleql/xray-core/common"
+	"github.com/eagleql/xray-core/common/net"
+	"github.com/eagleql/xray-core/common/session"
+	"github.com/eagleql/xray-core/core"
+	"github.com/eagleql/xray-core/features/dns"
 )
 
 // newFakeDNSSniffer Create a Fake DNS metadata sniffer

@@ -1,4 +1,4 @@
-module github.com/EagleQL/Xray-core
+module github.com/eagleql/xray-core
 
 go 1.16
 

@@ -3,9 +3,9 @@ package dns
 import (
 	"context"
 
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/features/dns"
-	"github.com/xtls/xray-core/features/dns/localdns"
+	"github.com/eagleql/xray-core/common/net"
+	"github.com/eagleql/xray-core/features/dns"
+	"github.com/eagleql/xray-core/features/dns/localdns"
 )
 
 // Client is the interface for DNS client.

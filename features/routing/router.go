@@ -1,8 +1,8 @@
 package routing
 
 import (
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/features"
+	"github.com/eagleql/xray-core/common"
+	"github.com/eagleql/xray-core/features"
 )
 
 // Router is a feature to choose an outbound tag for the given request.

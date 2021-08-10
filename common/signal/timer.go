@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/task"
+	"github.com/eagleql/xray-core/common"
+	"github.com/eagleql/xray-core/common/task"
 )
 
 type ActivityUpdater interface {

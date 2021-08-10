@@ -1,9 +1,9 @@
 package conf
 
 import (
+	"github.com/eagleql/xray-core/app/dns/fakedns"
+	"github.com/eagleql/xray-core/features/dns"
 	"github.com/golang/protobuf/proto"
-	"github.com/xtls/xray-core/app/dns/fakedns"
-	"github.com/xtls/xray-core/features/dns"
 )
 
 type FakeDNSConfig struct {
